@@ -3,11 +3,26 @@
 - 
   const demo_sessions = [
     {
-      session: "未定", 
-      talks: [], 
-      session_chair: "未定",
-      time: "未定",
+      session: "デモセッション1", 
+      talks: ["1-A01", "1-A02", "1-A03", "1-A04", "1-A06", "1-A07", "1-A09", "1-B01", "1-B02", "1-B03","1-B04","1-B05","1-B06","1-B07","1-B08","1-B10","1-B12","1-B13","1-B14","1-B15","1-B16","1-C01","1-C02","1-C03","1-C04","1-C05","1-C06","1-C07","1-C08","1-C09","1-C11","1-C12"], 
+      session_chair: "塚田 浩二",
+      interviewer: "宮藤 詩緒, 入江 英嗣",
+      time: "1日目 16:50-18:50",
     },
+    {
+      session: "デモセッション2", 
+      talks: ["2-A01", "2-A02", "2-A03", "2-A04", "2-A05", "2-A06", "2-A07", "2-B01", "2-B02", "2-B03","2-B04","2-B05","2-B06","2-B07","2-B08","2-B09","2-B10","2-B11","2-B13","2-B14","2-B15","2-B16","2-C01","2-C02","2-C03","2-C04","2-C05","2-C06","2-C07","2-C08","2-C09","2-C10","2-C11"], 
+      session_chair: "土田 修平",
+      interviewer: "鳴海 紘也, 樋口 啓太",
+      time: "2日目 15:50-17:50",
+    },
+    {
+      session: "デモセッション3", 
+      talks: ["3-A01", "3-A02", "3-A03", "3-A04", "3-A05", "3-A07", "3-A08", "3-A09", "3-A10", "3-B01", "3-B02", "3-B03","3-B04","3-B05","3-B06","3-B07","3-B09","3-B10","3-B11","3-B12","3-B13","3-B16","3-C01","3-C02","3-C04","3-C05","3-C06","3-C07","3-C08","3-C09","3-C11"], 
+      session_chair: "宮藤 詩緒",
+      interviewer: "樋口 啓太, 山本 和彦",
+      time: "3日目 09:00-11:00",
+    }
   ];
 
 
@@ -33,6 +48,8 @@ html(lang=ja)
             ul.list-inline
               li.list-inline-item <b>日時：</b>#{session["time"]}
               li.list-inline-item <b>座長：</b>#{session["session_chair"]}
+              li.list-inline-item <b>インタビューア：</b>#{session["interviewer"]}
+
           each talk in session["talks"]
             each entry in papers_data
               if entry["id"] == talk

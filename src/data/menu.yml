@@ -22,30 +22,30 @@
   label: for-participants
 - category_name: プログラム
   pages:
-  - name: 全体スケジュール・登壇発表・ロングティザー発表(準備中)
+  - name: 全体スケジュール・登壇発表・ロングティザー発表
     url: "./program.html"
-  - name: デモ・ポスター発表(準備中)
+  - name: デモ・ポスター発表
     url: "./demo-poster.html"
   label: program
 - category_name: 動画中継
   pages:
-  - name: 1日目(準備中)
-    url: "https://www.youtube.com/"
-  - name: 2日目(準備中)
-    url: "https://www.youtube.com/"
-  - name: 3日目(準備中)
-    url: "https://www.youtube.com/"
+  - name: 1日目
+    url: "https://www.youtube.com/watch?v=IVL7VrkkIWc"
+  - name: 2日目
+    url: "https://www.youtube.com/watch?v=vMjE3qgqcig"
+  - name: 3日目
+    url: "https://www.youtube.com/watch?v=oXFj3CqbG7M"
   label: live-streaming
 - category_name: 予稿集
   pages:
-  - name: ウェブ予稿集(準備中)
-    url: "https://www.wiss.org/"
-  - name: 電子予稿集(準備中)
-    url: "./"
+  - name: ウェブ予稿集
+    url: "https://www.wiss.org/WISS2022Proceedings/"
+  - name: 電子予稿集
+    url: "./downloads/proceedings.pdf"
   label: proceedings
 - category_name: WISSについて
   pages:
-  - name: 表彰(準備中)
+  - name: 表彰
     url: "./award.html"
   - name: 過去のWISS
     url: "./archive.html"
